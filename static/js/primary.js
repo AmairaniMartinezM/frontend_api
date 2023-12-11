@@ -1,6 +1,6 @@
 function primary(email, nombre, telefono){
     //const URL = "http://localhost:8000/contactos";
-    const URL = "https://heroku-python-3act-62ad9044fdb9.herokuapp.com/contactos"
+    const URL = "https://python-back-3b9ec03f9254.herokuapp.com/contactos"
     var request = new XMLHttpRequest;
     request.open('GET',URL +"/" +email,true);
     request.send();
@@ -23,7 +23,7 @@ function primary(email, nombre, telefono){
                 console.log("response: " + response);
                 console.log("json: " + json);
                 console.log("status_code: " + request2.status);
-                window.location.href = "https://frontentapi-de4686146bd2.herokuapp.com";
+                window.location.href = "https://python-back-3b9ec03f9254.herokuapp.com";
             }
         }else{
             alert("Email ya registrado")
