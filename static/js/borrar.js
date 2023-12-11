@@ -9,7 +9,7 @@ function borrar(email){
         request.send();
         request.onload = () => {
             const response = request.responseText;
-            window.location.href = "https://python-back-3b9ec03f9254.herokuapp.com/contactos";
+            window.location.href = "https://python-back-3b9ec03f9254.herokuapp.com/";
         }
     }else{
         console.log("El usuario ha cancelado.");
