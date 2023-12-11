@@ -20,7 +20,7 @@ function login(username, passwd){
         sessionStorage.setItem('token', data.token);
         // Redirigir a otra página o realizar acciones necesarias después de iniciar sesión
         console.log('Inicio de sesión exitoso. Token:', data.token);
-        window.location.href = "https://python-back-3b9ec03f9254.herokuapp.com";
+        window.location.href = "https://fro-123-95f87e6af815.herokuapp.com";
     })
     .catch(error => {
         alert(error.message);
