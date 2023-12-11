@@ -20,7 +20,7 @@ function insert(email, nombre, telefono){
             console.log("response: " + response);
             console.log("json: " + json);
             console.log("status_code: " + request.status);
-            window.location.href = "https://python-back-3b9ec03f9254.herokuapp.com/";
+            window.location.href = "https://fro-123-95f87e6af815.herokuapp.com/";
         }
     }
     
