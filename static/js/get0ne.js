@@ -1,5 +1,5 @@
 function get_one(email) {
-    const URL = "https://heroku-python-3act-62ad9044fdb9.herokuapp.com/contactos"
+    const URL = "https://python-back-3b9ec03f9254.herokuapp.com/contactos"
     // const URL = "http://localhost:8000/contactos";
     var request = new XMLHttpRequest;
     request.open('GET',URL +"/" +email,true);
